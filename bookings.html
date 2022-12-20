@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="description" content="width=device-width, initial-scale=1">
+        <meta name="description" content="This is about ceylon tea">
+        <title>Bookings</title>
+        <link rel="stylesheet" href="bookings.css">
+
+    </head>
+    <body>
+       
+<div class ="container">
+    <header>Bookings to visit museum</header><br>
+    <form action="#">
+        <div class="form first">
+            <div class="details personal">
+                <span class ="title">Personal Details</span><br>
+                    <br>
+                <div class="fields">
+                        <div class="input-field">
+                            <label>Full Name</label>
+                            <input type="text" placeholder="Enter your name">
+                        </div>
+                        </div>
+                        <br>
+                            <div class="fields">
+                            <div class="input-fields">
+                            <form>
+                                <label for="gender">Gender</label>
+                                <select id="gender" name="gender">
+                                  <option value="male">Male</option>
+                                  <option value="female">Female</option>
+                                </select>
+                              </form> 
+                              </div>
+                              </div>
+                              <br>
+
+                            <div class="fields">
+                            <div class="input-field">
+                                <label>Mobile Number</label>
+                               <input type="text" placeholder="Enter your mobile number">
+                            </div>
+                            <div class="fields">
+                                <div class="input-field">
+                                    <label>Email</label>
+                                    <input type="text" placeholder="Enter your email" >
+                                </div>
+                                <div class="fields">
+                                    <div class="input-field">
+                                        <label>Confirm  Email</label>
+                                       <input type="text" placeholder="Enter your confirmed email">
+                                    </div>
+                               <div class="input-field">
+                                <label>Visiting date</label>
+                                <input type="date" placeholder="Enter the visiting date">
+                               </div>
+                </div>
+            </div>
+        </div>
+    </form>
+</div>
+    <div clas="fields">
+    <div class ="container">
+        <header>Guests</header>
+        <br>
+    <h5>Local Adult</h5>
+             
+        <div class="x">
+        <button id="SLA-minus" class="btn">-</i></button>
+        <input id="SLA-number" type="number" min="0" class="input" value="0">
+        <button id="SLA-plus" class="btn">+</i></button>
+        </div>
+       
+        <h5>Local Child</h5>
+ 
+        <div class="x">
+        <button id="SLC-minus" class="btn">-</button>
+        <input id="SLC-number" type="number" min="0" class="input" value="0">
+        <button  id="SLC-plus" class="btn ">+</button>
+        </div>
+
+       
+        <h5>Foreigner Adult</h5>
+        <div class="x">
+         <button id="FA-minus" class="btn ">-</button>
+        <input id="FA-number" type="number" min="0" class="input" value="0">
+        <button  id="FA-plus" class="btn">+</button>
+        </div>
+
+        <h5>Foreigner Child</h5>
+ 
+        <div class="x">
+        <button id="FC-minus" class="btn ">-</button>
+        <input id="FC-number" type="number" min="0" class="input" value="0">
+        <button  id="FC-plus" class="btn ">+</button>
+      </div>
+
+        <h5>Infant</h5>
+ 
+        <div class="x">
+        <button id="IN-minus" class="btn">-</button>
+        <input id="IN-number" type="number" min="0" class="input" value="0">
+        <button  id="IN-plus" class="btn ">+</button><br>
+    
+<br>
+ <div class="fields">
+    <div class="input-fields">
+    <form>
+        <label for="duration">Duration</label>
+        <select id="duration" name="duration">
+          <option id="3hrs">3hrs</option>
+          <option id="half day">half day</option>
+          <option id="fullday">full day</option>
+        </select>
+      </form> 
+      </div>
+      </div>
+      <br>
+      <button id="addbtn" class="button">Add Order</button>
+      </div>
+      </div>
+
+
+ <br>
+ <div class ="container">
+    <header>Current Order</header><br>
+                <span id="CO" class ="title"><b>Cost of Order: </b></span>
+                <input type="text">
+                <br>
+                <br>
+                <header>Overall Order</header><br>
+                <span id="OC" class ="title"><b>Overall order cost:</b> </span>
+                <input type="text">
+                </div>
+                </div>
+    <script src="main.js"></script>
+
+</body>
+</html>

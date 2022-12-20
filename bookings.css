@@ -1,0 +1,118 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+body {
+    background-size: cover;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background : rgb(128, 229, 128);
+  }
+  
+.container{
+    position: relative;
+    max-width: 1700px;
+    width:95%;
+    border-radius: 7px;
+    padding: 90px;
+    margin: 0 17px;
+    background-color: #fff;
+    box-shadow: 0 6px 12px black;
+}
+.container header{
+    position: relative;
+    font-size: 25px;
+    font-weight: 500;
+    color: rgb(32, 129, 32);
+}
+.container.form{
+    position: relative;
+    margin-top: 15px;
+    min-height: 450px;
+    background-color: white;
+}
+.conatiner form.details{
+    margin-top: 20px;
+}
+.container form.title{
+    display: block;
+    margin-bottom: 8px;
+    font-size: 16px;
+    font-weight: 500;
+    margin: 6px 0;
+    color: grey;
+}
+.container form.fields{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+form .fields .input-field{
+    display: flex;
+    width: calc(100% / 3 - 15px);
+    flex-direction: column;
+    margin: 4px 0;
+}
+.input-field label{
+    font-size: 14px;
+    font-weight: 500;
+    color:rgb(132, 202, 132)
+}
+.input-field input{
+    outline: none;
+    font-size: 14px;
+    font-weight: 300;
+    color: black;
+    border-radius: 5px;
+    border: 1 px solid #aaaa;
+    padding: 0 14px;
+    height: 40px;
+    margin: 8px 0;
+}
+.input-field inputs:is(:focus, :valid){
+    box-shadow:0 3px 6px rgba(0,0,0,0.1);
+}
+.container form.fields{
+    display: flex;
+    align-items: center;
+    justify-content: space;
+}
+.box .btn{
+    width:40px;
+    height:20px;
+    border:1px solid #c6c6c6;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 22px;
+    cursor: pointer;
+    background:white;
+    margin-top:20px;
+}
+
+.box .input{
+    align-items: center;
+    width: 80px;
+    padding: 5px 5px;
+    border:1px solid #c6c6c6;
+    border-radius:4px;
+    font-size:30px;
+}
+.button {
+    background-color: #4CAF50; 
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+  }
